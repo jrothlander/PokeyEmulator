@@ -99,4 +99,74 @@
 
   <!-- Pin 23: P2 -->
   <line x1="600" y1="150" x2="630" y2="150" stroke="#000" stroke-width="2"/>
-  <text x="640" y="155" font-size="12" text-anchor="start">
+  <text x="640" y="155" font-size="12" text-anchor="start">23 P2</text>
+
+  <!-- Pin 24: P3 -->
+  <line x1="600" y1="170" x2="630" y2="170" stroke="#000" stroke-width="2"/>
+  <text x="640" y="175" font-size="12" text-anchor="start">24 P3</text>
+
+  <!-- Pin 25: P4 -->
+  <line x1="600" y1="190" x2="630" y2="190" stroke="#000" stroke-width="2"/>
+  <text x="640" y="195" font-size="12" text-anchor="start">25 P4</text>
+
+  <!-- Pin 26: P5 -->
+  <line x1="600" y1="210" x2="630" y2="210" stroke="#000" stroke-width="2"/>
+  <text x="640" y="215" font-size="12" text-anchor="start">26 P5</text>
+
+  <!-- Pin 27: P6 -->
+  <line x1="600" y1="230" x2="630" y2="230" stroke="#000" stroke-width="2"/>
+  <text x="640" y="235" font-size="12" text-anchor="start">27 P6</text>
+
+  <!-- Pin 28: P7 -->
+  <line x1="600" y1="250" x2="630" y2="250" stroke="#000" stroke-width="2"/>
+  <text x="640" y="255" font-size="12" text-anchor="start">28 P7</text>
+
+  <!-- Pin 29: KR1 -->
+  <line x1="600" y1="270" x2="630" y2="270" stroke="#000" stroke-width="2"/>
+  <text x="640" y="275" font-size="12" text-anchor="start">29 KR1</text>
+
+  <!-- Pin 30: KR2 -->
+  <line x1="600" y1="290" x2="630" y2="290" stroke="#000" stroke-width="2"/>
+  <text x="640" y="295" font-size="12" text-anchor="start">30 KR2</text>
+
+  <!-- Pin 31: K0 -->
+  <line x1="600" y1="310" x2="630" y2="310" stroke="#000" stroke-width="2"/>
+  <text x="640" y="315" font-size="12" text-anchor="start">31 K0</text>
+
+  <!-- Pin 32: K1 -->
+  <line x1="600" y1="330" x2="630" y2="330" stroke="#000" stroke-width="2"/>
+  <text x="640" y="335" font-size="12" text-anchor="start">32 K1</text>
+
+  <!-- Pin 33: K2 -->
+  <line x1="600" y1="350" x2="630" y2="350" stroke="#000" stroke-width="2"/>
+  <text x="640" y="355" font-size="12" text-anchor="start">33 K2</text>
+
+  <!-- Pin 34: K3 -->
+  <line x1="600" y1="370" x2="630" y2="370" stroke="#000" stroke-width="2"/>
+  <text x="640" y="375" font-size="12" text-anchor="start">34 K3</text>
+
+  <!-- Pin 35: K4 -->
+  <line x1="600" y1="390" x2="630" y2="390" stroke="#000" stroke-width="2"/>
+  <text x="640" y="395" font-size="12" text-anchor="start">35 K4</text>
+
+  <!-- Pin 36: K5 -->
+  <line x1="600" y1="410" x2="630" y2="410" stroke="#000" stroke-width="2"/>
+  <text x="640" y="415" font-size="12" text-anchor="start">36 K5</text>
+
+  <!-- Pin 37: SID (Serial In) -->
+  <line x1="600" y1="430" x2="630" y2="430" stroke="#000" stroke-width="2"/>
+  <text x="640" y="435" font-size="12" text-anchor="start">37 SID</text>
+
+  <!-- Pin 38: SOD (Serial Out) -->
+  <line x1="600" y1="450" x2="630" y2="450" stroke="#000" stroke-width="2"/>
+  <text x="640" y="455" font-size="12" text-anchor="start">38 SOD</text>
+
+  <!-- Pin 39: BCLK (Bidirectional Clock) -->
+  <line x1="600" y1="470" x2="630" y2="470" stroke="#000" stroke-width="2"/>
+  <text x="640" y="475" font-size="12" text-anchor="start">39 BCLK</text>
+
+  <!-- Pin 40: AUD (Audio Out) -->
+  <line x1="600" y1="490" x2="630" y2="490" stroke="#000" stroke-width="2"/>
+  <text x="640" y="495" font-size="12" text-anchor="start">40 AUD</text>
+</svg>
+
