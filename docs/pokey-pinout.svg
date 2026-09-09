@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400">
+  <!-- Chip body -->
+  <rect x="200" y="50" width="400" height="300" fill="#222" stroke="#000" stroke-width="2"/>
+  <text x="400" y="90" fill="#fff" font-size="18" text-anchor="middle">POKEY C012294</text>
+
+  <!-- Left side pins (1–20) -->
+  <!-- Each pin: small line + label -->
+  <!-- Adjust dy if you want tighter/looser spacing -->
+
+  <!-- Pin 1: A0 -->
+  <line x1="200" y1="110" x2="170" y2="110" stroke="#000" stroke-width="2"/>
+  <text x="160" y="115" font-size="12" text-anchor="end">1 A0</text>
+
+  <!-- Pin 2: A1 -->
+  <line x1="200" y1="130" x2="170" y2="130" stroke="#000" stroke-width="2"/>
+  <text x="160" y="135" font-size="12" text-anchor="end">2 A1</text>
+
+  <!-- Pin 3: A2 -->
+  <line x1="200" y1="150" x2="170" y2="150" stroke="#000" stroke-width="2"/>
+  <text x="160" y="155" font-size="12" text-anchor="end">3 A2</text>
+
+  <!-- Pin 4: A3 -->
+  <line x1="200" y1="170" x2="170" y2="170" stroke="#000" stroke-width="2"/>
+  <text x="160" y="175" font-size="12" text-anchor="end">4 A3</text>
+
+  <!-- Pin 5: A4 -->
+  <line x1="200" y1="190" x2="170" y2="190" stroke="#000" stroke-width="2"/>
+  <text x="160" y="195" font-size="12" text-anchor="end">5 A4</text>
+
+  <!-- Pin 6: A5 -->
+  <line x1="200" y1="210" x2="170" y2="210" stroke="#000" stroke-width="2"/>
+  <text x="160" y="215" font-size="12" text-anchor="end">6 A5</text>
+
+  <!-- Pin 7: A6 -->
+  <line x1="200" y1="230" x2="170" y2="230" stroke="#000" stroke-width="2"/>
+  <text x="160" y="235" font-size="12" text-anchor="end">7 A6</text>
+
+  <!-- Pin 8: A7 -->
+  <line x1="200" y1="250" x2="170" y2="250" stroke="#000" stroke-width="2"/>
+  <text x="160" y="255" font-size="12" text-anchor="end">8 A7</text>
+
+  <!-- Pin 9: A8 -->
+  <line x1="200" y1="270" x2="170" y2="270" stroke="#000" stroke-width="2"/>
+  <text x="160" y="275" font-size="12" text-anchor="end">9 A8</text>
+
+  <!-- Pin 10: A9 -->
+  <line x1="200" y1="290" x2="170" y2="290" stroke="#000" stroke-width="2"/>
+  <text x="160" y="295" font-size="12" text-anchor="end">10 A9</text>
+
+  <!-- Pin 11: A10 -->
+  <line x1="200" y1="310" x2="170" y2="310" stroke="#000" stroke-width="2"/>
+  <text x="160" y="315" font-size="12" text-anchor="end">11 A10</text>
+
+  <!-- Pin 12: A11 -->
+  <line x1="200" y1="330" x2="170" y2="330" stroke="#000" stroke-width="2"/>
+  <text x="160" y="335" font-size="12" text-anchor="end">12 A11</text>
+
+  <!-- Pin 13: A12 -->
+  <line x1="200" y1="350" x2="170" y2="350" stroke="#000" stroke-width="2"/>
+  <text x="160" y="355" font-size="12" text-anchor="end">13 A12</text>
+
+  <!-- Pin 14: A13 -->
+  <line x1="200" y1="370" x2="170" y2="370" stroke="#000" stroke-width="2"/>
+  <text x="160" y="375" font-size="12" text-anchor="end">14 A13</text>
+
+  <!-- Pin 15: A14 -->
+  <line x1="200" y1="390" x2="170" y2="390" stroke="#000" stroke-width="2"/>
+  <text x="160" y="395" font-size="12" text-anchor="end">15 A14</text>
+
+  <!-- Pin 16: A15 -->
+  <line x1="200" y1="410" x2="170" y2="410" stroke="#000" stroke-width="2"/>
+  <text x="160" y="415" font-size="12" text-anchor="end">16 A15</text>
+
+  <!-- Pin 17: R/W -->
+  <line x1="200" y1="430" x2="170" y2="430" stroke="#000" stroke-width="2"/>
+  <text x="160" y="435" font-size="12" text-anchor="end">17 R/W</text>
+
+  <!-- Pin 18: CS0 -->
+  <line x1="200" y1="450" x2="170" y2="450" stroke="#000" stroke-width="2"/>
+  <text x="160" y="455" font-size="12" text-anchor="end">18 CS0</text>
+
+  <!-- Pin 19: CS1 -->
+  <line x1="200" y1="470" x2="170" y2="470" stroke="#000" stroke-width="2"/>
+  <text x="160" y="475" font-size="12" text-anchor="end">19 CS1</text>
+
+  <!-- Pin 20: VSS -->
+  <line x1="200" y1="490" x2="170" y2="490" stroke="#000" stroke-width="2"/>
+  <text x="160" y="495" font-size="12" text-anchor="end">20 VSS</text>
+
+  <!-- Right side pins (21–40) -->
+
+  <!-- Pin 21: P0 -->
+  <line x1="600" y1="110" x2="630" y2="110" stroke="#000" stroke-width="2"/>
+  <text x="640" y="115" font-size="12" text-anchor="start">21 P0</text>
+
+  <!-- Pin 22: P1 -->
+  <line x1="600" y1="130" x2="630" y2="130" stroke="#000" stroke-width="2"/>
+  <text x="640" y="135" font-size="12" text-anchor="start">22 P1</text>
+
+  <!-- Pin 23: P2 -->
+  <line x1="600" y1="150" x2="630" y2="150" stroke="#000" stroke-width="2"/>
+  <text x="640" y="155" font-size="12" text-anchor="start">
