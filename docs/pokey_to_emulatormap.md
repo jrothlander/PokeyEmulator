@@ -1,3 +1,7 @@
+> This has not been implemented. This is only a proposed mapping pattern and does not reflect what has been implemented.
+> I only dropped it here for reference to refer to in discussions.
+> I do not care about any of the pots, keyboard, serial, etc. details. I am only interested in the audio details. But I thought it would be worth listing everything the chip supports with an example of how it could be mapped to a modern API. 
+
 # Mapping POKEY Registers to Modern API
 
 This document explains how each POKEY register maps to a clean, modern API layer.  
