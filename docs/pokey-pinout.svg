@@ -1,178 +1,225 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700">
 
-  <!-- CHIP BODY (vertical DIP, pins 1/40 at top, 20/21 at bottom) -->
-  <rect x="250" y="100" width="300" height="380" fill="#222" stroke="#000" stroke-width="2"/>
+  <!-- CHIP BODY (stretched: top=140, bottom=560) -->
+  <rect x="260" y="140" width="280" height="420" fill="#222" stroke="#000" stroke-width="2"/>
 
   <!-- ORIENTATION NOTCH -->
-  <path d="M380 100 L370 80 L360 100 Z" fill="#444"/>
+  <path d="M400 140 L385 115 L370 140 Z" fill="#444"/>
 
-  <!-- CHIP LABEL -->
-  <text x="400" y="140" fill="#ffffff" font-size="20" text-anchor="middle">POKEY CO12294</text>
+  <!-- ROTATED CHIP LABEL -->
+  <text x="400" y="350" fill="#ffffff" font-size="22" text-anchor="middle"
+        transform="rotate(90 400 350)">POKEY CO12294</text>
 
-  <!-- LEFT SIDE PINS (1–20, top to bottom) -->
-  <!-- y = 100 + (n-1)*20 -->
+  <!-- FUNCTION COLORS -->
+  <!-- Data: #4FC3F7 -->
+  <!-- Address: #81C784 -->
+  <!-- POT: #FFB74D -->
+  <!-- Keyboard: #BA68C8 -->
+  <!-- Serial: #E57373 -->
+  <!-- Control: #FFD54F -->
+  <!-- Power: #90A4AE -->
+  <!-- Audio: #4DB6AC -->
+
+  <!-- LEFT SIDE PINS (1–5) -->
 
   <!-- 1 VSS -->
-  <line x1="250" y1="100" x2="220" y2="100" stroke="#888" stroke-width="2"/>
-  <text x="210" y="105" font-size="12" text-anchor="end" fill="#000">1 VSS</text>
+  <line x1="260" y1="160" x2="230" y2="160" stroke="#90A4AE" stroke-width="3"/>
+  <text x="270" y="165" fill="#fff" font-size="12">1</text>
+  <text x="220" y="165" font-size="12" text-anchor="end">VSS</text>
 
   <!-- 2 D3 -->
-  <line x1="250" y1="120" x2="220" y2="120" stroke="#888" stroke-width="2"/>
-  <text x="210" y="125" font-size="12" text-anchor="end" fill="#000">2 D3</text>
+  <line x1="260" y1="180" x2="230" y2="180" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="270" y="185" fill="#fff" font-size="12">2</text>
+  <text x="220" y="185" font-size="12" text-anchor="end">D3</text>
 
   <!-- 3 D4 -->
-  <line x1="250" y1="140" x2="220" y2="140" stroke="#888" stroke-width="2"/>
-  <text x="210" y="145" font-size="12" text-anchor="end" fill="#000">3 D4</text>
+  <line x1="260" y1="200" x2="230" y2="200" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="270" y="205" fill="#fff" font-size="12">3</text>
+  <text x="220" y="205" font-size="12" text-anchor="end">D4</text>
 
   <!-- 4 D5 -->
-  <line x1="250" y1="160" x2="220" y2="160" stroke="#888" stroke-width="2"/>
-  <text x="210" y="165" font-size="12" text-anchor="end" fill="#000">4 D5</text>
+  <line x1="260" y1="220" x2="230" y2="220" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="270" y="225" fill="#fff" font-size="12">4</text>
+  <text x="220" y="225" font-size="12" text-anchor="end">D5</text>
 
   <!-- 5 D6 -->
-  <line x1="250" y1="180" x2="220" y2="180" stroke="#888" stroke-width="2"/>
-  <text x="210" y="185" font-size="12" text-anchor="end" fill="#000">5 D6</text>
+  <line x1="260" y1="240" x2="230" y2="240" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="270" y="245" fill="#fff" font-size="12">5</text>
+  <text x="220" y="245" font-size="12" text-anchor="end">D6</text>
 
-  <!-- 6 D7 -->
-  <line x1="250" y1="200" x2="220" y2="200" stroke="#888" stroke-width="2"/>
-  <text x="210" y="205" font-size="12" text-anchor="end" fill="#000">6 D7</text>
+    <!-- 6 D7 -->
+  <line x1="260" y1="260" x2="230" y2="260" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="270" y="265" fill="#fff" font-size="12">6</text>
+  <text x="220" y="265" font-size="12" text-anchor="end">D7</text>
 
   <!-- 7 Φ2 -->
-  <line x1="250" y1="220" x2="220" y2="220" stroke="#888" stroke-width="2"/>
-  <text x="210" y="225" font-size="12" text-anchor="end" fill="#000">7 Φ2</text>
+  <line x1="260" y1="280" x2="230" y2="280" stroke="#FFD54F" stroke-width="3"/>
+  <text x="270" y="285" fill="#fff" font-size="12">7</text>
+  <text x="220" y="285" font-size="12" text-anchor="end">Φ2</text>
 
   <!-- 8 P6 -->
-  <line x1="250" y1="240" x2="220" y2="240" stroke="#888" stroke-width="2"/>
-  <text x="210" y="245" font-size="12" text-anchor="end" fill="#000">8 P6</text>
+  <line x1="260" y1="300" x2="230" y2="300" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="305" fill="#fff" font-size="12">8</text>
+  <text x="220" y="305" font-size="12" text-anchor="end">P6</text>
 
   <!-- 9 P7 -->
-  <line x1="250" y1="260" x2="220" y2="260" stroke="#888" stroke-width="2"/>
-  <text x="210" y="265" font-size="12" text-anchor="end" fill="#000">9 P7</text>
+  <line x1="260" y1="320" x2="230" y2="320" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="325" fill="#fff" font-size="12">9</text>
+  <text x="220" y="325" font-size="12" text-anchor="end">P7</text>
 
   <!-- 10 P4 -->
-  <line x1="250" y1="280" x2="220" y2="280" stroke="#888" stroke-width="2"/>
-  <text x="210" y="285" font-size="12" text-anchor="end" fill="#000">10 P4</text>
+  <line x1="260" y1="340" x2="230" y2="340" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="345" fill="#fff" font-size="12">10</text>
+  <text x="220" y="345" font-size="12" text-anchor="end">P4</text>
 
-  <!-- 11 P5 -->
-  <line x1="250" y1="300" x2="220" y2="300" stroke="#888" stroke-width="2"/>
-  <text x="210" y="305" font-size="12" text-anchor="end" fill="#000">11 P5</text>
+    <!-- 11 P5 -->
+  <line x1="260" y1="360" x2="230" y2="360" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="365" fill="#fff" font-size="12">11</text>
+  <text x="220" y="365" font-size="12" text-anchor="end">P5</text>
 
   <!-- 12 P2 -->
-  <line x1="250" y1="320" x2="220" y2="320" stroke="#888" stroke-width="2"/>
-  <text x="210" y="325" font-size="12" text-anchor="end" fill="#000">12 P2</text>
+  <line x1="260" y1="380" x2="230" y2="380" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="385" fill="#fff" font-size="12">12</text>
+  <text x="220" y="385" font-size="12" text-anchor="end">P2</text>
 
   <!-- 13 P3 -->
-  <line x1="250" y1="340" x2="220" y2="340" stroke="#888" stroke-width="2"/>
-  <text x="210" y="345" font-size="12" text-anchor="end" fill="#000">13 P3</text>
+  <line x1="260" y1="400" x2="230" y2="400" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="405" fill="#fff" font-size="12">13</text>
+  <text x="220" y="405" font-size="12" text-anchor="end">P3</text>
 
   <!-- 14 P0 -->
-  <line x1="250" y1="360" x2="220" y2="360" stroke="#888" stroke-width="2"/>
-  <text x="210" y="365" font-size="12" text-anchor="end" fill="#000">14 P0</text>
+  <line x1="260" y1="420" x2="230" y2="420" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="425" fill="#fff" font-size="12">14</text>
+  <text x="220" y="425" font-size="12" text-anchor="end">P0</text>
 
   <!-- 15 P1 -->
-  <line x1="250" y1="380" x2="220" y2="380" stroke="#888" stroke-width="2"/>
-  <text x="210" y="385" font-size="12" text-anchor="end" fill="#000">15 P1</text>
+  <line x1="260" y1="440" x2="230" y2="440" stroke="#FFB74D" stroke-width="3"/>
+  <text x="270" y="445" fill="#fff" font-size="12">15</text>
+  <text x="220" y="445" font-size="12" text-anchor="end">P1</text>
 
   <!-- 16 KR2 -->
-  <line x1="250" y1="400" x2="220" y2="400" stroke="#888" stroke-width="2"/>
-  <text x="210" y="405" font-size="12" text-anchor="end" fill="#000">16 KR2</text>
+  <line x1="260" y1="460" x2="230" y2="460" stroke="#BA68C8" stroke-width="3"/>
+  <text x="270" y="465" fill="#fff" font-size="12">16</text>
+  <text x="220" y="465" font-size="12" text-anchor="end">KR2</text>
 
   <!-- 17 VCC -->
-  <line x1="250" y1="420" x2="220" y2="420" stroke="#888" stroke-width="2"/>
-  <text x="210" y="425" font-size="12" text-anchor="end" fill="#000">17 VCC</text>
+  <line x1="260" y1="480" x2="230" y2="480" stroke="#90A4AE" stroke-width="3"/>
+  <text x="270" y="485" fill="#fff" font-size="12">17</text>
+  <text x="220" y="485" font-size="12" text-anchor="end">VCC</text>
 
   <!-- 18 K5 -->
-  <line x1="250" y1="440" x2="220" y2="440" stroke="#888" stroke-width="2"/>
-  <text x="210" y="445" font-size="12" text-anchor="end" fill="#000">18 K5</text>
+  <line x1="260" y1="500" x2="230" y2="500" stroke="#BA68C8" stroke-width="3"/>
+  <text x="270" y="505" fill="#fff" font-size="12">18</text>
+  <text x="220" y="505" font-size="12" text-anchor="end">K5</text>
 
   <!-- 19 K4 -->
-  <line x1="250" y1="460" x2="220" y2="460" stroke="#888" stroke-width="2"/>
-  <text x="210" y="465" font-size="12" text-anchor="end" fill="#000">19 K4</text>
+  <line x1="260" y1="520" x2="230" y2="520" stroke="#BA68C8" stroke-width="3"/>
+  <text x="270" y="525" fill="#fff" font-size="12">19</text>
+  <text x="220" y="525" font-size="12" text-anchor="end">K4</text>
 
   <!-- 20 K3 -->
-  <line x1="250" y1="480" x2="220" y2="480" stroke="#888" stroke-width="2"/>
-  <text x="210" y="485" font-size="12" text-anchor="end" fill="#000">20 K3</text>
+  <line x1="260" y1="540" x2="230" y2="540" stroke="#BA68C8" stroke-width="3"/>
+  <text x="270" y="545" fill="#fff" font-size="12">20</text>
+  <text x="220" y="545" font-size="12" text-anchor="end">K3</text>
 
-  <!-- RIGHT SIDE PINS (21–40, bottom to top) -->
-  <!-- y for pin k = 100 + (40 - k)*20 -->
-
-  <!-- 21 K2 (bottom) -->
-  <line x1="550" y1="480" x2="580" y2="480" stroke="#888" stroke-width="2"/>
-  <text x="590" y="485" font-size="12" text-anchor="start" fill="#000">21 K2</text>
+  <!-- 21 K2 -->
+  <line x1="540" y1="540" x2="570" y2="540" stroke="#BA68C8" stroke-width="3"/>
+  <text x="530" y="545" fill="#fff" font-size="12" text-anchor="end">21</text>
+  <text x="580" y="545" font-size="12" text-anchor="start">K2</text>
 
   <!-- 22 K1 -->
-  <line x1="550" y1="460" x2="580" y2="460" stroke="#888" stroke-width="2"/>
-  <text x="590" y="465" font-size="12" text-anchor="start" fill="#000">22 K1</text>
+  <line x1="540" y1="520" x2="570" y2="520" stroke="#BA68C8" stroke-width="3"/>
+  <text x="530" y="525" fill="#fff" font-size="12" text-anchor="end">22</text>
+  <text x="580" y="525" font-size="12" text-anchor="start">K1</text>
 
   <!-- 23 K0 -->
-  <line x1="550" y1="440" x2="580" y2="440" stroke="#888" stroke-width="2"/>
-  <text x="590" y="445" font-size="12" text-anchor="start" fill="#000">23 K0</text>
+  <line x1="540" y1="500" x2="570" y2="500" stroke="#BA68C8" stroke-width="3"/>
+  <text x="530" y="505" fill="#fff" font-size="12" text-anchor="end">23</text>
+  <text x="580" y="505" font-size="12" text-anchor="start">K0</text>
 
   <!-- 24 SID -->
-  <line x1="550" y1="420" x2="580" y2="420" stroke="#888" stroke-width="2"/>
-  <text x="590" y="425" font-size="12" text-anchor="start" fill="#000">24 SID</text>
+  <line x1="540" y1="480" x2="570" y2="480" stroke="#E57373" stroke-width="3"/>
+  <text x="530" y="485" fill="#fff" font-size="12" text-anchor="end">24</text>
+  <text x="580" y="485" font-size="12" text-anchor="start">SID</text>
 
   <!-- 25 KR1 -->
-  <line x1="550" y1="400" x2="580" y2="400" stroke="#888" stroke-width="2"/>
-  <text x="590" y="405" font-size="12" text-anchor="start" fill="#000">25 KR1</text>
+  <line x1="540" y1="460" x2="570" y2="460" stroke="#BA68C8" stroke-width="3"/>
+  <text x="530" y="465" fill="#fff" font-size="12" text-anchor="end">25</text>
+  <text x="580" y="465" font-size="12" text-anchor="start">KR1</text>
 
-  <!-- 26 BCLK -->
-  <line x1="550" y1="380" x2="580" y2="380" stroke="#888" stroke-width="2"/>
-  <text x="590" y="385" font-size="12" text-anchor="start" fill="#000">26 BCLK</text>
+    <!-- 26 BCLK -->
+  <line x1="540" y1="440" x2="570" y2="440" stroke="#E57373" stroke-width="3"/>
+  <text x="530" y="445" fill="#fff" font-size="12" text-anchor="end">26</text>
+  <text x="580" y="445" font-size="12" text-anchor="start">BCLK</text>
 
   <!-- 27 ACLK -->
-  <line x1="550" y1="360" x2="580" y2="360" stroke="#888" stroke-width="2"/>
-  <text x="590" y="365" font-size="12" text-anchor="start" fill="#000">27 ACLK</text>
+  <line x1="540" y1="420" x2="570" y2="420" stroke="#E57373" stroke-width="3"/>
+  <text x="530" y="425" fill="#fff" font-size="12" text-anchor="end">27</text>
+  <text x="580" y="425" font-size="12" text-anchor="start">ACLK</text>
 
   <!-- 28 SOD -->
-  <line x1="550" y1="340" x2="580" y2="340" stroke="#888" stroke-width="2"/>
-  <text x="590" y="345" font-size="12" text-anchor="start" fill="#000">28 SOD</text>
+  <line x1="540" y1="400" x2="570" y2="400" stroke="#E57373" stroke-width="3"/>
+  <text x="530" y="405" fill="#fff" font-size="12" text-anchor="end">28</text>
+  <text x="580" y="405" font-size="12" text-anchor="start">SOD</text>
 
   <!-- 29 IRQ -->
-  <line x1="550" y1="320" x2="580" y2="320" stroke="#888" stroke-width="2"/>
-  <text x="590" y="325" font-size="12" text-anchor="start" fill="#000">29 IRQ</text>
+  <line x1="540" y1="380" x2="570" y2="380" stroke="#FFD54F" stroke-width="3"/>
+  <text x="530" y="385" fill="#fff" font-size="12" text-anchor="end">29</text>
+  <text x="580" y="385" font-size="12" text-anchor="start">IRQ</text>
 
   <!-- 30 CS0 -->
-  <line x1="550" y1="300" x2="580" y2="300" stroke="#888" stroke-width="2"/>
-  <text x="590" y="305" font-size="12" text-anchor="start" fill="#000">30 CS0</text>
+  <line x1="540" y1="360" x2="570" y2="360" stroke="#FFD54F" stroke-width="3"/>
+  <text x="530" y="365" fill="#fff" font-size="12" text-anchor="end">30</text>
+  <text x="580" y="365" font-size="12" text-anchor="start">CS0</text>
 
   <!-- 31 CS1 -->
-  <line x1="550" y1="280" x2="580" y2="280" stroke="#888" stroke-width="2"/>
-  <text x="590" y="285" font-size="12" text-anchor="start" fill="#000">31 CS1</text>
+  <line x1="540" y1="340" x2="570" y2="340" stroke="#FFD54F" stroke-width="3"/>
+  <text x="530" y="345" fill="#fff" font-size="12" text-anchor="end">31</text>
+  <text x="580" y="345" font-size="12" text-anchor="start">CS1</text>
 
   <!-- 32 R/W -->
-  <line x1="550" y1="260" x2="580" y2="260" stroke="#888" stroke-width="2"/>
-  <text x="590" y="265" font-size="12" text-anchor="start" fill="#000">32 R/W</text>
+  <line x1="540" y1="320" x2="570" y2="320" stroke="#FFD54F" stroke-width="3"/>
+  <text x="530" y="325" fill="#fff" font-size="12" text-anchor="end">32</text>
+  <text x="580" y="325" font-size="12" text-anchor="start">R/W</text>
 
   <!-- 33 A3 -->
-  <line x1="550" y1="240" x2="580" y2="240" stroke="#888" stroke-width="2"/>
-  <text x="590" y="245" font-size="12" text-anchor="start" fill="#000">33 A3</text>
+  <line x1="540" y1="300" x2="570" y2="300" stroke="#81C784" stroke-width="3"/>
+  <text x="530" y="305" fill="#fff" font-size="12" text-anchor="end">33</text>
+  <text x="580" y="305" font-size="12" text-anchor="start">A3</text>
 
   <!-- 34 A2 -->
-  <line x1="550" y1="220" x2="580" y2="220" stroke="#888" stroke-width="2"/>
-  <text x="590" y="225" font-size="12" text-anchor="start" fill="#000">34 A2</text>
+  <line x1="540" y1="280" x2="570" y2="280" stroke="#81C784" stroke-width="3"/>
+  <text x="530" y="285" fill="#fff" font-size="12" text-anchor="end">34</text>
+  <text x="580" y="285" font-size="12" text-anchor="start">A2</text>
 
   <!-- 35 A1 -->
-  <line x1="550" y1="200" x2="580" y2="200" stroke="#888" stroke-width="2"/>
-  <text x="590" y="205" font-size="12" text-anchor="start" fill="#000">35 A1</text>
+  <line x1="540" y1="260" x2="570" y2="260" stroke="#81C784" stroke-width="3"/>
+  <text x="530" y="265" fill="#fff" font-size="12" text-anchor="end">35</text>
+  <text x="580" y="265" font-size="12" text-anchor="start">A1</text>
 
-  <!-- 36 A0 -->
-  <line x1="550" y1="180" x2="580" y2="180" stroke="#888" stroke-width="2"/>
-  <text x="590" y="185" font-size="12" text-anchor="start" fill="#000">36 A0</text>
+    <!-- 36 A0 -->
+  <line x1="540" y1="240" x2="570" y2="240" stroke="#81C784" stroke-width="3"/>
+  <text x="530" y="245" fill="#fff" font-size="12" text-anchor="end">36</text>
+  <text x="580" y="245" font-size="12" text-anchor="start">A0</text>
 
   <!-- 37 AUD -->
-  <line x1="550" y1="160" x2="580" y2="160" stroke="#888" stroke-width="2"/>
-  <text x="590" y="165" font-size="12" text-anchor="start" fill="#000">37 AUD</text>
+  <line x1="540" y1="220" x2="570" y2="220" stroke="#4DB6AC" stroke-width="3"/>
+  <text x="530" y="225" fill="#fff" font-size="12" text-anchor="end">37</text>
+  <text x="580" y="225" font-size="12" text-anchor="start">AUD</text>
 
   <!-- 38 D0 -->
-  <line x1="550" y1="140" x2="580" y2="140" stroke="#888" stroke-width="2"/>
-  <text x="590" y="145" font-size="12" text-anchor="start" fill="#000">38 D0</text>
+  <line x1="540" y1="200" x2="570" y2="200" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="530" y="205" fill="#fff" font-size="12" text-anchor="end">38</text>
+  <text x="580" y="205" font-size="12" text-anchor="start">D0</text>
 
   <!-- 39 D1 -->
-  <line x1="550" y1="120" x2="580" y2="120" stroke="#888" stroke-width="2"/>
-  <text x="590" y="125" font-size="12" text-anchor="start" fill="#000">39 D1</text>
+  <line x1="540" y1="180" x2="570" y2="180" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="530" y="185" fill="#fff" font-size="12" text-anchor="end">39</text>
+  <text x="580" y="185" font-size="12" text-anchor="start">D1</text>
 
-  <!-- 40 D2 (top) -->
-  <line x1="550" y1="100" x2="580" y2="100" stroke="#888" stroke-width="2"/>
-  <text x="590" y="105" font-size="12" text-anchor="start" fill="#000">40 D2</text>
+  <!-- 40 D2 -->
+  <line x1="540" y1="160" x2="570" y2="160" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="530" y="165" fill="#fff" font-size="12" text-anchor="end">40</text>
+  <text x="580" y="165" font-size="12" text-anchor="start">D2</text>
 
 </svg>
