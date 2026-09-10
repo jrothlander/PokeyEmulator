@@ -221,5 +221,41 @@
   <line x1="540" y1="160" x2="570" y2="160" stroke="#4FC3F7" stroke-width="3"/>
   <text x="530" y="165" fill="#fff" font-size="12" text-anchor="end">40</text>
   <text x="580" y="165" font-size="12" text-anchor="start">D2</text>
+  <!-- LEGEND BOX (right side, full height) -->
+  <rect x="620" y="150" width="200" height="260" fill="#111" stroke="#555" stroke-width="2" rx="6"/>
+
+  <text x="720" y="175" fill="#fff" font-size="14" text-anchor="middle">Legend</text>
+
+  <!-- Data -->
+  <rect x="630" y="195" width="15" height="15" fill="#4FC3F7"/>
+  <text x="655" y="207" fill="#fff" font-size="12">Data (D0–D7)</text>
+
+  <!-- Address -->
+  <rect x="630" y="220" width="15" height="15" fill="#81C784"/>
+  <text x="655" y="232" fill="#fff" font-size="12">Address (A0–A3)</text>
+
+  <!-- POT -->
+  <rect x="630" y="245" width="15" height="15" fill="#FFB74D"/>
+  <text x="655" y="257" fill="#fff" font-size="12">POT (P0–P7)</text>
+
+  <!-- Keyboard -->
+  <rect x="630" y="270" width="15" height="15" fill="#BA68C8"/>
+  <text x="655" y="282" fill="#fff" font-size="12">Keyboard (K0–K5, KR1–2)</text>
+
+  <!-- Serial -->
+  <rect x="630" y="295" width="15" height="15" fill="#E57373"/>
+  <text x="655" y="307" fill="#fff" font-size="12">Serial (SID, SOD, CLK)</text>
+
+  <!-- Control -->
+  <rect x="630" y="320" width="15" height="15" fill="#FFD54F"/>
+  <text x="655" y="332" fill="#fff" font-size="12">Control (IRQ, CS, R/W)</text>
+
+  <!-- Power -->
+  <rect x="630" y="345" width="15" height="15" fill="#90A4AE"/>
+  <text x="655" y="357" fill="#fff" font-size="12">Power (VCC, VSS)</text>
+
+  <!-- Audio -->
+  <rect x="630" y="370" width="15" height="15" fill="#4DB6AC"/>
+  <text x="655" y="382" fill="#fff" font-size="12">Audio (AUD)</text>
 
 </svg>
