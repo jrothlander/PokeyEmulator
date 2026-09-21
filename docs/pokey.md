@@ -265,6 +265,4 @@ This reference is based on:
 - Community documentation  
 - Modern analysis and emulator research  
 
-All text here is original and safe to include in your GitHub repo.
-
 
